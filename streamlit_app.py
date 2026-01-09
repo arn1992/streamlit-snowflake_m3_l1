@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 ## Use this for Streamlit in Snowflake deployment
 from snowflake.snowpark.context import get_active_session
-#from snowflake.cortex import complete
+from snowflake.cortex import complete
 
 st.title("Avalanche Streamlit App")
 
